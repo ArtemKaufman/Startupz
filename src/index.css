@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Circular Std, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #3d4f5c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.rocket {
+  background-image: url('../images/rocket.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-Book.woff2') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-Medium.woff2') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-Bold.woff2') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
